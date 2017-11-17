@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ttup-basic" />
+        <module name="ttup-jdk" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ttup" target="1.5" />
+      <module name="ttup-basic" target="1.7" />
+      <module name="ttup-jdk" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
