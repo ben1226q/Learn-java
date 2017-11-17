@@ -8,4 +8,8 @@ public class UserDAO {
     public void get(Object o) {
         System.out.println("UserDAO -> Get: " + o.toString());
     }
+
+    public void sub(Object o) {
+        System.out.println("UserDAO -> Sub: " + o.toString());
+    }
 }
