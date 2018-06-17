@@ -2,19 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ttup-basic</artifactId>
+        <groupId>com.xiaozhu.ttup</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../ttup-basic/pom.xml</relativePath>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.xiaozhu.ttup</groupId>
-    <artifactId>ttup</artifactId>
-    <packaging>pom</packaging>
-    <version>0.1-SNAPSHOT</version>
+    <artifactId>dubbo</artifactId>
+
     <modules>
-        <module>ttup-basic</module>
-        <module>ttup-jdk</module>
-        <module>dubbodemo</module>
-        <module>dubbos</module>
-        <module>dubboc</module>
-        <module>web1</module>
     </modules>
 
 </project>
