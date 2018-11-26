@@ -1,5 +1,6 @@
 package com.xiaozhu.ttup.refactoring.chapter1;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class CustomerTest {
@@ -21,6 +22,11 @@ public class CustomerTest {
         customer.addRental(rental2);
 
         System.out.println(customer.statement());
-
+        Assert.assertTrue(("Rental Record for asan\n" +
+                "\t英雄\t1.5\n" +
+                "\t小头爸爸\t9.0\n" +
+                "\t复仇者联盟\t3.5\n" +
+                "Amount owed is 14.0\n" +
+                "you earned 4 frequent renter points").equals(customer.statement()));
     }
 }

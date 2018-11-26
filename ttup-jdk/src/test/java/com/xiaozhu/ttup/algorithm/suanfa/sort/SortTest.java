@@ -52,7 +52,7 @@ public class SortTest {
     public void testQuick(){
 //        Integer []a = new Integer[]{2,43,54,24,343,24,145,56,2321,123,23,121};
         Integer []a = new Integer[]{8,9,1,7,2,3,5,4,6,0};
-        System.out.println(a.length);
+        System.out.println(JSONObject.toJSONString(a));
         Quick.sort(a);
         System.out.println(JSONObject.toJSONString(a));
         assert Quick.isSorted(a);
@@ -101,4 +101,11 @@ public class SortTest {
         }
     }
 
+    @Test
+    public void testIf1(){
+        int i = 1;
+        for(int j=0; j<i; j++){
+            System.out.println(j);
+        }
+    }
 }
