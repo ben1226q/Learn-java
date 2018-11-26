@@ -25,4 +25,11 @@ public class Rental {
         this._dayRented = _dayRented;
     }
 
+    public double getCharge() {
+        return _movie.getCharge(_dayRented);
+    }
+
+    public int getFrequentRenterPoints() {
+        return this.getMovie().getFrequentRenterPoints(_dayRented);
+    }
 }
