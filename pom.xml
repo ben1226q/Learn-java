@@ -11,10 +11,6 @@
     <modules>
         <module>ttup-basic</module>
         <module>ttup-jdk</module>
-        <module>dubbodemo</module>
-        <module>dubbos</module>
-        <module>dubboc</module>
-        <module>web1</module>
     </modules>
 
 </project>
